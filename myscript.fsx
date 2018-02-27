@@ -1,9 +1,6 @@
-(* -- Fake Dependencies paket-inline
-storage: none
-source https://api.nuget.org/v3/index.json
+#r "paket:
+nuget Fake.Core.Target //"
 
-nuget Fake.Core.Target prerelease
--- Fake Dependencies -- *)
 #load "./.fake/myscript.fsx/intellisense.fsx"
 
 open Fake.Core
