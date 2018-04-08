@@ -6,15 +6,15 @@ nuget Fake.Core.Target //"
 open Fake.Core
 
 // *** Define Targets ***
-Target.Create "Clean" (fun _ ->
+Target.create "Clean" (fun _ ->
   Trace.log " --- Cleaning stuff --- "
 )
 
-Target.Create "Build" (fun _ ->
+Target.create "Build" (fun _ ->
   Trace.log " --- Building the app --- "
 )
 
-Target.Create "Deploy" (fun _ ->
+Target.create "Deploy" (fun _ ->
   Trace.log " --- Deploying app --- "
 )
 
@@ -26,4 +26,4 @@ open Fake.Core.TargetOperators
   ==> "Deploy"
 
 // *** Start Build ***
-Target.RunOrDefault "Deploy"
+Target.runOrDefault "Deploy"

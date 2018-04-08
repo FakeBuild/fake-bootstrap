@@ -25,3 +25,5 @@ git clone https://github.com/matthid/fake-bootstrap.git
 cd fake-bootstrap
 .\fake.cmd run myscript.fsx
 ```
+
+To upgrade to latest packages, just delete `myscript.fsx.lock` and run fake again.
