@@ -1,5 +1,8 @@
 # Fake bootstrapping example
 
+> Note: There are other variants (as branches in this repository) to choose from as well as other [installation options](https://fake.build/fake-gettingstarted.html#Install-FAKE)
+> - as paket-cli tool https://github.com/matthid/fake-bootstrap/tree/paket_clitool
+
 This repository shows how to bootstrap FAKE from nothing.
 The `fake.sh` and `fake.cmd` scripts will:
  - install .NET Core with the provided install scripts (https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script)
