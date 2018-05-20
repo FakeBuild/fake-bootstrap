@@ -1,15 +1,21 @@
 {
     "version": "2.0.0",
     "tasks": [
+        // {
+        //     "label": "build",
+        //     "command": "dotnet",
+        //     "type": "process",
+        //     "args": [
+        //         "build",
+        //         "${workspaceFolder}/src/Poc.Cli/Poc.Cli.csproj"
+        //     ],
+        //     "problemMatcher": "$msCompile"
+        // },
         {
             "label": "build",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/src/Poc.Cli/Poc.Cli.csproj"
-            ],
-            "problemMatcher": "$msCompile"
+            "type": "shell",
+            "command": "build.cmd",
+            "problemMatcher": []
         }
     ]
 }
